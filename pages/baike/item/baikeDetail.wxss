@@ -1,0 +1,9 @@
+/* pages/baike/item/baikeDetail.wxss */
+@import "/libs/wxParse/wxParse.wxss";
+
+page{
+  height: 100%;
+}
+.baike-detail-container{
+  padding: 24rpx;
+}

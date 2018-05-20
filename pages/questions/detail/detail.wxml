@@ -1,0 +1,32 @@
+<!--pages/questions/detail/detail.wxml-->
+<view class='question-container'>
+  <view class='userInfoWrapper'>
+    <image class='itemImage' src="{{question.user.avatarUrl==null?'/assets/icons/people_no_icon.png':question.user.avatarUrl}}"></image>
+    <text class='itemName'>{{question.user.nickName==null?'匿名用户':question.user.nickName}}</text>
+  </view>
+  <text class='question-title'>{{question.title}}</text>
+
+  <text class='question-content'>{{question.content}}</text>
+  <image wx:if='{{question.images.length>0}}' class='question-image' mode="aspectFit" src="{{'https://wycode.cn/upload/question/'+question.id+'/'+question.images[0]}}"></image>
+  <text class='question-update-time'>上次置顶时间：{{question.updateTime}}</text>
+  <view class='gap' />
+  <block wx:for='{{answers}}'>
+    <view data-item='{{item}}' bindtap='itemClick' class='itemWrapper' hover-class='itemWrapperHover'>
+      <text class='itemContent'>{{item.content}}</text>
+      <view class='item-bottom'>
+        <text class='itemTime'>{{item.createTime}}</text>
+        <view class='item-userinfo-wrapper'>
+          <image src="{{item.user.avatarUrl==null?'/assets/icons/people_no_icon.png':item.user.avatarUrl}}" class='itemImage'></image>
+          <text class='itemName'>{{item.user.nickName==null?'匿名用户':item.user.nickName}}</text>
+        </view>
+      </view>
+
+    </view>
+    <view class='dividing-line'></view>
+  </block>
+</view>
+
+<view class='btn-container'>
+  <button class='btn-bottom'  open-type="getUserInfo" bindgetuserinfo='getUserInfo' type='primary'>回答</button>
+  <button class='btn-bottom' bindtap='onTopClicked'>置顶</button>
+</view>

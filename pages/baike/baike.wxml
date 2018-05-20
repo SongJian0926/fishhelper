@@ -1,0 +1,105 @@
+<!--pages/baike/baike.wxml-->
+<view class='baike-container'>
+
+  <view class='baike-title'>
+    <text>温带淡水</text>
+    <view class='baike-title-block' style='background-color: #259b24;'></view>
+  </view>
+  <view class='baike-row'>
+    <view class='baike-item' bindtap='clickJinyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/jinyu.jpg'></image>
+      <text class='baike-item-text'>金鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickJinli' hover-class='baike-item-hover'>
+      <image src='/assets/icons/jinli.jpg'></image>
+      <text class='baike-item-text'>锦鲤</text>
+    </view>
+    <view class='baike-item' bindtap='clickWugui' hover-class='baike-item-hover'>
+      <image src='/assets/icons/wugui.jpg'></image>
+      <text class='baike-item-text'>乌龟</text>
+    </view>
+    <view class='baike-item' bindtap='clickShuicao' hover-class='baike-item-hover'>
+      <image src='/assets/icons/shuicao.jpg'></image>
+      <text class='baike-item-text'>水草</text>
+    </view>
+  </view>
+  <view class='dividing-line'></view>
+
+  <view class='baike-title'>
+    <text>热带淡水</text>
+    <view class='baike-title-block' style='background-color: #ffc107;'></view>
+  </view>
+  <view class='baike-row'>
+    <view class='baike-item' bindtap='clickLongyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/longyu.jpg'></image>
+      <text class='baike-item-text'>龙鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickDengyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/dengyu.jpg'></image>
+      <text class='baike-item-text'>灯科鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickShenxianyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/shenxianyu.jpg'></image>
+      <text class='baike-item-text'>神仙鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickSanhucidiao' hover-class='baike-item-hover'>
+      <image src='/assets/icons/sanhucidiao.jpg'></image>
+      <text class='baike-item-text'>三湖慈鲷</text>
+    </view>
+  </view>
+  <view class='baike-row'>
+    <view class='baike-item' bindtap='clickHuyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/huyu.jpg'></image>
+      <text class='baike-item-text'>虎鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickKongque' hover-class='baike-item-hover'>
+      <image src='/assets/icons/kongqueyu.jpg'></image>
+      <text class='baike-item-text'>孔雀鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickYingwu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/yingwu.jpg'></image>
+      <text class='baike-item-text'>鹦鹉鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickHongyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/hongyu.jpg'></image>
+      <text class='baike-item-text'>淡水魟鱼</text>
+    </view>
+  </view>
+  <view class='dividing-line'></view>
+
+  <view class='baike-title'>
+    <text>海水</text>
+    <view class='baike-title-block' style='background-color: #03a9f4;'></view>
+  </view>
+  <view class='baike-row'>
+    <view class='baike-item' bindtap='clickHaishuiyu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/haishuiyu.jpg'></image>
+      <text class='baike-item-text'>海水鱼</text>
+    </view>
+    <view class='baike-item' bindtap='clickShanhu' hover-class='baike-item-hover'>
+      <image src='/assets/icons/shanhu.jpg'></image>
+      <text class='baike-item-text'>珊瑚</text>
+    </view>
+  </view>
+  <view class='dividing-line'></view>
+
+  <view class='baike-title'>
+    <text>其它</text>
+    <view class='baike-title-block' style='background-color: #e91e63;'></view>
+  </view>
+  <view class='baike-row'>
+    <view class='baike-item' bindtap='clickShuizhi' hover-class='baike-item-hover'>
+      <image src='/assets/icons/water.jpg'></image>
+      <text class='baike-item-text'>水质</text>
+    </view>
+    <view class='baike-item' bindtap='clickShebei' hover-class='baike-item-hover'>
+      <image src='/assets/icons/shebei.jpg'></image>
+      <text class='baike-item-text'>设备</text>
+    </view>
+    <view class='baike-item' bindtap='clickYubing' hover-class='baike-item-hover'>
+      <image src='/assets/icons/yubing.jpg'></image>
+      <text class='baike-item-text'>鱼病</text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,65 @@
+/* pages/questions/questions.wxss */
+.btn-add-question{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  bottom: 48rpx;
+  right: 48rpx;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  background-color: #0099dd;
+  border-radius: 60rpx;
+}
+
+.btn-add-question-hover{
+  background-color: #33bbff;
+}
+
+.itemWrapper {
+  position: relative;
+  padding: 12rpx;
+  display: flex;
+  flex-direction: column;
+  height: 160rpx;
+}
+
+.itemTitle {
+  font-size: 1em;
+}
+
+.itemContent {
+  font-size: 0.8em;
+  margin-top: 6rpx;
+  color: #555;
+}
+
+.userInfoWrapper{
+  right: 12rpx;
+  bottom: 12rpx;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+
+.itemName{
+  margin-left: 8rpx;
+}
+
+.itemWrapperHover {
+  background-color: #eee;
+}
+
+.itemImage {
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+}
+
+.add-question-image{
+  height: 36rpx;
+  width: 36rpx;
+  position:absolute;
+  left: 42rpx;
+  top: 42rpx;
+}

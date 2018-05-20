@@ -1,0 +1,5 @@
+<!--pages/questions/detail/answer/answer.wxml-->
+<view class='container-answer'>
+  <textarea placeholder='请输入您的回答！' bindinput='contentInput' auto-focus='true'></textarea>
+  <button type='primary' bindtap='submit'>提交</button>
+</view>

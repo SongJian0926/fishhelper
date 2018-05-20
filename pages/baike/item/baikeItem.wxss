@@ -1,0 +1,41 @@
+/* pages/baike/item/baikeItem.wxss */
+
+.itemWrapper {
+  position: relative;
+  padding: 12rpx;
+  display: flex;
+}
+
+.itemTitle {
+  font-size: smaller;
+  margin-left: 10rpx;
+  flex-basis: 70%;
+}
+
+.itemWrapperHover {
+  background-color: #eee;
+}
+
+.itemImage {
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.readCount {
+  position: absolute;
+  display: flex;
+  right: 12rpx;
+  bottom: 12rpx;
+  align-items: center
+}
+
+.readCountIcon {
+  height: 32rpx;
+  width: 32rpx;
+}
+
+.readCountText {
+  font-size: x-small;
+  color: #777;
+  margin-left: 12rpx;
+}

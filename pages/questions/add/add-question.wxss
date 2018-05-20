@@ -1,0 +1,33 @@
+/* pages/questions/add/add-question.wxss */
+.container-add{
+  padding: 24rpx;
+}
+
+textarea{
+  border: 1px solid;
+  border-radius: 10rpx;
+  border-color: #ddd;
+  padding: 10rpx;
+  font-size: smaller;
+  width: 96%;
+  margin-top: 24rpx;
+  height: 500rpx;
+}
+
+input{
+  border: 1px solid;
+  border-radius: 10rpx;
+  border-color: #ddd;
+  padding: 10rpx;
+  width: 96%;
+}
+
+button{
+  margin-top: 24rpx;
+}
+
+.question-image{
+  margin-top: 24rpx;
+  height: 300rpx;
+  width: 300rpx;
+}

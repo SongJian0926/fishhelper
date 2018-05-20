@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/baike/baike",
+    "pages/about/about",
+    "pages/questions/questions",
+    "pages/friends/friends",
+    "pages/baike/item/baikeItem",
+    "pages/baike/item/baikeDetail",
+    "pages/about/help/help",
+    "pages/about/feedback/feedback",
+    "pages/questions/add/add-question",
+    "pages/questions/detail/detail",
+    "pages/questions/detail/answer/answer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0099dd",
+    "navigationBarTitleText": "养鱼小助手",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#0099dd",
+    "list": [
+      {
+        "iconPath": "assets/icons/dic.png",
+        "selectedIconPath": "assets/icons/dic_fill.png",
+        "pagePath": "pages/baike/baike",
+        "text": "百科"
+      },
+      {
+        "iconPath": "assets/icons/questions.png",
+        "selectedIconPath": "assets/icons/questions_fill.png",
+        "pagePath": "pages/questions/questions",
+        "text": "问答"
+      },
+      {
+        "iconPath": "assets/icons/people.png",
+        "selectedIconPath": "assets/icons/people_fill.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  },
+  "debug": true
+}

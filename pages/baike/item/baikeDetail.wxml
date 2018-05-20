@@ -1,0 +1,5 @@
+<!--pages/baike/item/baikeDetail.wxml-->
+<import src="/libs/wxParse/wxParse.wxml"/>
+<view class='baike-detail-container'>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

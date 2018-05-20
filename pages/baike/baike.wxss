@@ -1,0 +1,46 @@
+/* pages/baike/baike.wxss */
+image{
+  height: 140rpx;
+  width: 140rpx;
+}
+
+.baike-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.baike-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  padding: 20rpx;
+}
+
+.baike-item-hover{
+  background-color: #eee
+}
+
+.baike-title{
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  margin-left: 12rpx;
+  margin-top: 12rpx;
+}
+
+.baike-row{
+  display: flex;
+  margin-left: 12rpx;
+}
+
+.baike-title-block{
+  width: 12rpx;
+  height: 32rpx;
+  margin-left: 10rpx
+}
+
+.baike-item-text{
+  margin-top: 8rpx;
+}
+

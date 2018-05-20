@@ -1,0 +1,17 @@
+/* pages/questions/detail/answer/answer.wxss */
+.container-answer{
+  padding: 24rpx;
+}
+
+textarea{
+  border: 1px solid;
+  border-radius: 10rpx;
+  border-color: #ddd;
+  padding: 10rpx;
+  width: 96%;
+  height: 600rpx;
+}
+
+button{
+  margin-top: 48rpx;
+}

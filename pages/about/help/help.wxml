@@ -1,0 +1,19 @@
+<!--pages/about/help/help.wxml-->
+<view class='container-help'>
+  <image src='/assets/logo.png' class='logoImage'/>
+  <text class="text-app">养鱼小助手 v2.1</text>
+  <text class='text-title'>主要功能：</text>
+  <text class='text-content'>
+  造福鱼友，从此不用再东查查，西搜搜。养鱼，用养鱼小助手就够了！
+  百科：提供各种常识攻略，鱼种鉴别，饲养方法，适应水质，养鱼设备信息，鱼病治疗等；
+  问答：可以向鱼友们提问，也可帮鱼友答疑解惑。
+  </text>
+  <text class='text-title'>支持我：</text>
+  <text class='text-content'>
+  1. 分享小程序给好友。
+  2. 通过意见反馈功能提供宝贵建议。
+  3. 访问 wycode.cn 点击关于，打赏作者，支持运营。 
+  4. 欢迎使用作者的另外一个小程序：跨平台剪切板。
+  </text>
+  <image src='/assets/clipboard.jpg' class='clipboardImage' bindtap='toClipboard'></image>
+</view>

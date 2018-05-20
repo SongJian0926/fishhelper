@@ -1,0 +1,9 @@
+<!--pages/questions/add/add-question.wxml-->
+<view class='container-add'>
+  <input placeholder='问题标题' maxlength='32' bindinput='titleInput'></input>
+  <textarea placeholder='请输入详细问题描述！' bindinput='descriptionInput' maxlength='255'></textarea>
+  <image class='question-image' src='{{questionImage}}' bindtap='chooseImage' mode='aspectFit'></image>
+  <progress wx:if='{{isUploading}}' percent="{{imageProgress}}" show-info />
+  <button type='primary' form-type='primary' class='submit-button' open-type="getUserInfo" bindgetuserinfo='getUserInfo' lang='zh_CN'>提交</button>
+  
+</view>

@@ -1,0 +1,14 @@
+<!--pages/baike/item/baikeItem.wxml-->
+<view class="baike-item-container">
+  <block wx:for='{{items}}'>
+    <view data-item='{{item}}' bindtap='itemClick' class='itemWrapper' hover-class='itemWrapperHover'>
+      <image src='https://wycode.cn/upload/fish/{{item.imageName}}' class='itemImage'></image>
+      <text class='itemTitle'>{{item.title}}</text>
+      <view class='readCount'>
+        <image src='/assets/icons/eye.png' class='readCountIcon'></image>
+        <text class='readCountText'>{{item.readCount}}</text>
+      </view>
+    </view>
+    <view class='dividing-line'></view>
+  </block>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/questions/questions.wxml-->
+<view>
+  <block wx:for='{{items}}'>
+    <view data-item='{{item}}' bindtap='itemClick' class='itemWrapper' hover-class='itemWrapperHover'>
+      <text class='itemTitle'>{{item.title}}</text>
+      <text class='itemContent'>{{item.content}}</text>
+      <view class='userInfoWrapper'>
+        <image src="{{item.user.avatarUrl==null?'/assets/icons/people_no_icon.png':item.user.avatarUrl}}" class='itemImage'></image>
+        <text class='itemName'>{{item.user.nickName==null?'匿名用户':item.user.nickName}}</text>
+      </view>
+
+    </view>
+    <view class='dividing-line'></view>
+  </block>
+</view>
+
+<button class="btn-add-question" hover-class='btn-add-question-hover' bindtap='onAddQuestionClicked'><image class='add-question-image' src='/assets/icons/add_question.png'></image></button>

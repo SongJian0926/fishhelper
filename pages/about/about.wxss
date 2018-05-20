@@ -1,0 +1,19 @@
+/* pages/about/about.wxss */
+page{
+  height: 100%;
+}
+
+.aboutContainer{
+  padding: 24rpx;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+scroll-view{
+  flex-basis: 100%;
+}
+
+navigator {
+  margin-top: 24rpx;
+}
